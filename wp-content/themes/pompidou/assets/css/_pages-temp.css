@@ -1,0 +1,73 @@
+.page-content {
+  width: 80%;
+  max-width: 980px;
+  margin: 3.2rem auto 4rem;
+}
+
+/* BG for top */
+.single-hero {
+  background-color: var(--dark-green);
+}
+
+/* contact */
+.form-wraper {
+  width: 50%;
+}
+
+.single-hero {
+  margin-bottom: 4rem;
+}
+
+.short-contact {
+  width: 50%;
+}
+
+/* Homepage */
+#last-news-home {
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  h2 {
+    display: block;
+    width: 100%;
+  }
+  & div {
+    overflow: hidden;
+  }
+}
+
+/* card  */
+
+article.card {
+  min-height: 470px;
+  background-color: var(--white-color);
+  max-width: 47%;
+  justify-content: start;
+
+  overflow: hidden;
+  scrollbar-width: 0;
+  & a {
+    text-decoration: none;
+  }
+}
+
+/* archive */
+
+#arch-tea {
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+/* single */
+#single-header {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+#main-post-tea {
+  article {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
